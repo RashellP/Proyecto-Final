@@ -1,0 +1,117 @@
+html {
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    background-image: url('../img/deudor.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.171);
+    text-shadow: 2px 2px 2px rgb(255, 253, 253);
+    font-size: 35px;
+    border-radius: 0px 0px 100px 100px;
+}
+h1{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 5%;
+    color: #c300ff;
+    font-family: 'Century Gothic';
+    text-shadow:2px 2px 1px #000000,
+                3px 3px 2px rgb(255, 251, 0),
+                5px 5px 3px #ff0000;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+nav{
+    font-size: 28px;
+    margin-top: -110px;
+    margin-left: 60%;
+    padding: 5px;
+    text-align: center;
+}
+a{
+    color: rgba(255, 0, 0, 0.938);
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(233, 224, 224, 0.61);
+}
+a:hover{
+    color: rgba(255, 251, 0, 0.815);    
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+form{
+    background-color: #00f7ff88;
+    font-family: 'Century Gothic';
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 50px;
+}
+#tipo{
+    margin-left: 18.5%;
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00ffd5;
+}
+select{
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    color: #ff0055;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+input[type="radio"]{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+input{
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    color: #ff0055;
+    border-radius: 20px;
+    margin-left: 29%;
+    margin-top: 2%;
+}
+#mostrar{
+    border-radius: 50px 0px 50px 0px;
+    width: 20%;
+    font-weight: bold;
+    margin-left: 38%;
+    margin-bottom: 2%;
+    border: #000000;
+    color: #ff0055;
+}
+.deuda{
+    text-align: center;
+    font-weight: bold;
+    color: #ff0000;
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 1%;
+    margin-left: 25%;
+}
+#mostrar:hover{
+    background: rgba(30, 30, 30, .5);
+    font-weight: bold;
+    border: #000000;
+    margin-bottom: 2%;
+    color: #ff0055;
+} 
+#mostrar:active{
+    background: #ff0000;
+    color: #000000;
+}
